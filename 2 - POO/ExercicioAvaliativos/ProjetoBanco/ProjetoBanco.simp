@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.60" multi-file="no" uid="simpbdf07cfa3b9d4eaab052312bb065b9bb">
+  <meta>
+    <name>ProjetoBanco</name>
+    <authors>Lucas Lima</authors>
+    <description>O presente diagrama tem por objetivo mostrar as classes do projeto ProjetoBanco e seus respectivos relacionamentos</description>
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>60</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>6</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-14743c8b526c44a489c4107f70a65693" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Lucas</first-name>
+        <last-name>Lima</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-fd8eafb94b2f4da596204bdedd4540dc" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p355bc496f6034971852a6ab7647ac19e_566825190" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Lucas Lima</author>
+        </authors>
+        <description />
+        <creation-date>05/20/2020 11:08:17</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p684bdf097c444e659596e548488deb87_226970201" name="Diagrama de Classe" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-292,-91" zoom="0.5999999">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Lucas Lima</author>
+          </authors>
+          <description />
+          <creation-date>05/20/2020 11:08:17</creation-date>
+          <change-date>05/20/2020 11:12:35</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="4f4d2310ee7546b5b25c80262732e80f" cid="C001" type="class" name="Funcionario" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:08:45" visibility="package" />
+          <item id="f7081811440e467b827678ae8148d60e" cid="C002" type="class" name="Diretor" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:09:05" visibility="package" />
+          <item id="1cdf28c4f5764840b6e31862726c9463" cid="C003" type="class" name="Gerente" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:10:05" visibility="package" />
+          <item id="10e6a8a79a6e4ef5ac514231a72fdc78" cid="C004" type="class" name="Presidente" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:10:25" visibility="package" />
+          <item id="14a127b9188a436184fe25a78bc4d9e8" cid="DEP003" type="dependency" name="estende" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:11:04" from="10e6a8a79a6e4ef5ac514231a72fdc78" to="4f4d2310ee7546b5b25c80262732e80f" visibility="package" />
+          <item id="ee984cbf148f4067a9b2a672b96edc9a" cid="DEP004" type="dependency" name="estende" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:11:22" from="1cdf28c4f5764840b6e31862726c9463" to="4f4d2310ee7546b5b25c80262732e80f" visibility="package" />
+          <item id="67002a9799d343d2a32e953e17b5b846" cid="DEP005" type="dependency" name="estende" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:11:52" from="f7081811440e467b827678ae8148d60e" to="1cdf28c4f5764840b6e31862726c9463" visibility="package" />
+          <item id="897ea0a0e3fe48d8ad344a4c8f5dd03a" cid="C005" type="class" name="ProjetoBanco" style-class="" change-tracking-state="added" creator="" creation-date="05/20/2020 11:12:35" visibility="package" />
+        </abstract-items>
+        <layer id="169d534ff9d747fa8e6a3eaa8a9c7c21" name="Default" visible="true" enabled="true" locked="false">
+          <item id="4f4d2310ee7546b5b25c80262732e80f" iid="70940b64ff48492d90d96f166466edad" creation-date="05/20/2020 11:08:45" order-index="0" type="entity">
+            <layout ax="698" ay="144" awidth="140" aheight="160" x="698" y="144" width="140" height="160" />
+            <class />
+          </item>
+          <item id="f7081811440e467b827678ae8148d60e" iid="9fc4cea79c0b4c08889a8f8f68db8935" creation-date="05/20/2020 11:09:05" order-index="1" type="entity">
+            <layout ax="418" ay="-95" awidth="140" aheight="160" x="418" y="-95" width="140" height="160" />
+            <class />
+          </item>
+          <item id="1cdf28c4f5764840b6e31862726c9463" iid="424256abcc8f41dfad0752f1893971fc" creation-date="05/20/2020 11:10:05" order-index="2" type="entity">
+            <layout ax="418" ay="156" awidth="140" aheight="160" x="418" y="156" width="140" height="160" />
+            <class />
+          </item>
+          <item id="10e6a8a79a6e4ef5ac514231a72fdc78" iid="c1cd003876cb460b8686a1185a2e67b9" creation-date="05/20/2020 11:10:25" order-index="3" type="entity">
+            <layout ax="418" ay="407" awidth="140" aheight="160" x="418" y="407" width="140" height="160" />
+            <class />
+          </item>
+          <item id="14a127b9188a436184fe25a78bc4d9e8" iid="5df141ea7f064e7987135ebadbc65578" creation-date="05/20/2020 11:11:04" order-index="4" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="558" y1="441" x2="768" y2="304" start-border-pos="0.303515625" end-border-pos="0.625" end-local-pos="70" name-position="-90,17">
+              <points>
+                <point x="558" y="441" />
+                <point x="768" y="304" />
+              </points>
+            </layout>
+            <relation from="10e6a8a79a6e4ef5ac514231a72fdc78" from-iid="c1cd003876cb460b8686a1185a2e67b9" to="4f4d2310ee7546b5b25c80262732e80f" to-iid="70940b64ff48492d90d96f166466edad" />
+          </item>
+          <item id="ee984cbf148f4067a9b2a672b96edc9a" iid="8f9b0ec8b2ae47f7ac5a5a63d34fa706" creation-date="05/20/2020 11:11:22" order-index="5" type="relation">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="558" y1="236" x2="698" y2="236" start-border-pos="0.375" end-border-pos="0.856250002980232" end-local-pos="92" name-position="0,20">
+              <points>
+                <point x="558" y="236" />
+                <point x="698" y="236" />
+              </points>
+            </layout>
+            <relation from="1cdf28c4f5764840b6e31862726c9463" from-iid="424256abcc8f41dfad0752f1893971fc" to="4f4d2310ee7546b5b25c80262732e80f" to-iid="70940b64ff48492d90d96f166466edad" />
+          </item>
+          <item id="67002a9799d343d2a32e953e17b5b846" iid="0d73e918f3794f88b388f54aacd88bb1" creation-date="05/20/2020 11:11:52" order-index="6" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="488" y1="65" x2="488" y2="156" start-border-pos="0.625" end-border-pos="0.125" name-position="45,-31">
+              <points>
+                <point x="488" y="65" />
+                <point x="488" y="156" />
+              </points>
+            </layout>
+            <relation from="f7081811440e467b827678ae8148d60e" from-iid="9fc4cea79c0b4c08889a8f8f68db8935" to="1cdf28c4f5764840b6e31862726c9463" to-iid="424256abcc8f41dfad0752f1893971fc" />
+          </item>
+          <item id="897ea0a0e3fe48d8ad344a4c8f5dd03a" iid="fde70b107cb24831955f3e6efe0f2b77" creation-date="05/20/2020 11:12:35" order-index="7" type="entity">
+            <layout ax="20" ay="156" awidth="140" aheight="160" x="20" y="156" width="140" height="160" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
