@@ -17,12 +17,12 @@ public class Main {
 	}
 // ===============================================================
 	private void Start() {
-		// criando os vetor dos tipos de dados
+		
 		int vetInt[] = { 5, 5 };
 		double vetDouble[] = { 10.27, 10, 42 };
 		String vetString[] = { "44", " - Lucas Lima" };
 		
-		// chamando funções de mesmo nome, mas com tipo de parâmetros diferentes
+		
 		operacao(vetInt);
 		operacao(vetDouble);
 		operacao(vetString);
